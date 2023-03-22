@@ -1,0 +1,1 @@
+stm32f401ve_17_3_2023_baitap6_tuan6\startup_stm32f401xe.o: startup_stm32f401xe.s

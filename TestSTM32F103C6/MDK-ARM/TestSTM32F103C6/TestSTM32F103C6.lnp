@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"teststm32f103c6\startup_stm32f103x6.o"
+"teststm32f103c6\main.o"
+"teststm32f103c6\stm32f1xx_it.o"
+"teststm32f103c6\stm32f1xx_hal_msp.o"
+"teststm32f103c6\stm32f1xx_hal_gpio_ex.o"
+"teststm32f103c6\stm32f1xx_hal_tim.o"
+"teststm32f103c6\stm32f1xx_hal_tim_ex.o"
+"teststm32f103c6\stm32f1xx_hal_uart.o"
+"teststm32f103c6\stm32f1xx_hal.o"
+"teststm32f103c6\stm32f1xx_hal_rcc.o"
+"teststm32f103c6\stm32f1xx_hal_rcc_ex.o"
+"teststm32f103c6\stm32f1xx_hal_gpio.o"
+"teststm32f103c6\stm32f1xx_hal_dma.o"
+"teststm32f103c6\stm32f1xx_hal_cortex.o"
+"teststm32f103c6\stm32f1xx_hal_pwr.o"
+"teststm32f103c6\stm32f1xx_hal_flash.o"
+"teststm32f103c6\stm32f1xx_hal_flash_ex.o"
+"teststm32f103c6\stm32f1xx_hal_exti.o"
+"teststm32f103c6\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "TestSTM32F103C6\TestSTM32F103C6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TestSTM32F103C6.map" -o TestSTM32F103C6\TestSTM32F103C6.axf

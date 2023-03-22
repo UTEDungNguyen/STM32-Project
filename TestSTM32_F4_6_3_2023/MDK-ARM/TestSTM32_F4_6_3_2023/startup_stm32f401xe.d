@@ -1,0 +1,1 @@
+teststm32_f4_6_3_2023\startup_stm32f401xe.o: startup_stm32f401xe.s

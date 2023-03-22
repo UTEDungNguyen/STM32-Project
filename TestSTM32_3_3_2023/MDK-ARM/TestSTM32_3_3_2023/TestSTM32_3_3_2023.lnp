@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"teststm32_3_3_2023\startup_stm32f401xe.o"
+"teststm32_3_3_2023\main.o"
+"teststm32_3_3_2023\stm32f4xx_it.o"
+"teststm32_3_3_2023\stm32f4xx_hal_msp.o"
+"teststm32_3_3_2023\stm32f4xx_hal_tim.o"
+"teststm32_3_3_2023\stm32f4xx_hal_tim_ex.o"
+"teststm32_3_3_2023\stm32f4xx_hal_rcc.o"
+"teststm32_3_3_2023\stm32f4xx_hal_rcc_ex.o"
+"teststm32_3_3_2023\stm32f4xx_hal_flash.o"
+"teststm32_3_3_2023\stm32f4xx_hal_flash_ex.o"
+"teststm32_3_3_2023\stm32f4xx_hal_flash_ramfunc.o"
+"teststm32_3_3_2023\stm32f4xx_hal_gpio.o"
+"teststm32_3_3_2023\stm32f4xx_hal_dma_ex.o"
+"teststm32_3_3_2023\stm32f4xx_hal_dma.o"
+"teststm32_3_3_2023\stm32f4xx_hal_pwr.o"
+"teststm32_3_3_2023\stm32f4xx_hal_pwr_ex.o"
+"teststm32_3_3_2023\stm32f4xx_hal_cortex.o"
+"teststm32_3_3_2023\stm32f4xx_hal.o"
+"teststm32_3_3_2023\stm32f4xx_hal_exti.o"
+"teststm32_3_3_2023\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "TestSTM32_3_3_2023\TestSTM32_3_3_2023.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TestSTM32_3_3_2023.map" -o TestSTM32_3_3_2023\TestSTM32_3_3_2023.axf
